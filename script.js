@@ -20,7 +20,29 @@ function imc() {
    } else if (imc > 40) {
     document.getElementById('tipo').innerText = `Você Possui: Obesidade grave`
    }
+  }
+  
+// mutiplicamos a altura por si mesmo, depois dividimos altura por peso ao quadrado
+
+
+/*
+PELEJEI PARA CRIAR  O NEGOCIO DO INPUT COM VIRGULAR, POR ENQUANTO IREI DEIXAR PARA DEPOIS.
+var inputfd = document.querySelector('#altura')
+inputfd.onkeyup = function(){
+  var numeroVirgulado = this.value.replace(/\B(?=(\d{1})+(?!\d))/g, ",")
+   // console.log(numeroVirgulado);
+   this.value = numeroVirgulado
+
 }
 
 
-// mutiplicamos a altura por si mesmo, depois dividimos altura por peso ao quadrado
+function miguel() {
+  var altura = document.getElementById('altura').value.this
+  if (altura > 99) {
+    altura * 0.01
+   console.log(altura * 0.01)
+  } 
+}
+
+miguel();
+*/
