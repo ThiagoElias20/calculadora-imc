@@ -5,9 +5,9 @@ function imc() {
   let altura = document.getElementById('altura').value
 
   let altura2 = altura * altura
-  let imc = peso / altura2
+  let imc = Math.trunc(peso / altura2)
 
-  document.getElementById('res').innerText = `Seu IMC é ${imc}`
+  document.getElementById('res').innerText = `${imc}`
 
   if (imc < 18.5 ) {
     document.getElementById('tipo').innerText = `Você Possui: Magreza`

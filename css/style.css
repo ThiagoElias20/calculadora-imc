@@ -1,0 +1,41 @@
+body {
+  background-color: #0d1320;
+}
+
+.pai-imc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.imc {
+  background-color: #14213D;
+  color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 169px;
+  margin-bottom: 20px;
+}
+
+.imc #res {
+  color: #FCA311;
+  font-size: x-large;
+}
+
+.imc input[type=text] {
+  height: 60px;
+  width: 400px;
+  border-radius: 5px;
+}
