@@ -34,7 +34,7 @@ body {
   font-size: x-large;
 }
 
-.imc input[type=number] {
+.imc input{
   height: 60px;
   width: 400px;
   border-radius: 5px;
