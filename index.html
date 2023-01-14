@@ -11,18 +11,21 @@
 <body>
   <div class="pai-imc">
     <div class="imc">
-      <div class="result">
-        <h1>IMC :</h1>
-        <div id="res">XXX</div>
+      <div class="pre-result">
+        <div class="resultado">
+          <h1>IMC :</h1>
+          <div id="res">XXX</div>
+        </div>
+        <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "number" maxlength = "3" placeholder="Digite seu peso aqui" id="peso">
+        <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "text" maxlength = "4" placeholder="Digite sua altura aqui" id="altura">
+  
+        <button onclick="imc()">Calcular</button>
       </div>
-      <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-      type = "number" maxlength = "3" placeholder="Digite seu peso aqui" id="peso">
-      <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-      type = "text" maxlength = "4" placeholder="Digite sua altura aqui" id="altura">
-
-      <button onclick="imc()">TEST</button>
-    
-      <div id="tipo">Você Possui:</div>
+      <div class="post-result">
+        <div id="tipo">Você Possui:</div>
+      </div>
     </div>
   </div>
 
