@@ -23,11 +23,20 @@ body {
 
 .pre-result {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
+.pre-result #texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-shadow: 0 0 5px #000000;
+  text-align: center;
+  height: 200px;
+  width: 396px;
+  margin-bottom: 25px;
+}
 
 .imc #res {
   color: #FCA311;
