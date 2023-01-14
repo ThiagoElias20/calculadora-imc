@@ -46,7 +46,7 @@ function miguel() {
 
 miguel();
 */
-
+document.getElementById('post-result').style.display = "none"
 
 function imc() {
   let peso = document.getElementById('peso')
@@ -87,7 +87,13 @@ function imc() {
     document.getElementById('tipo').innerText = `Você Possui: Obesidade`
    } else if (imc > 40) {
     document.getElementById('tipo').innerText = `Você Possui: Obesidade grave`
-   }
+  }
+
+
+  if (imc > 0 ) {
+    document.getElementById('post-result').style.display = "inline"
+    document.getElementById('pre-result').style.display = "none"
+  }
   }
   
 
@@ -100,3 +106,4 @@ altura.addEventListener('keydown',(e) => {
       testando()
   } 
 })
+
