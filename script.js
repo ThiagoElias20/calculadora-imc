@@ -1,13 +1,13 @@
 
 
 function imc() {
-  let peso = document.getElementById('peso').value
-  let altura = document.getElementById('altura').value
+  let peso = document.getElementById('peso')
+  let altura = document.getElementById('altura')
 
-  let altura2 = altura * altura
-  let imc = Math.trunc(peso / altura2)
+  let altura2 = altura.value * altura.value
+  let imc = Math.trunc(Number(peso.value) / Number(altura2))
 
-  document.getElementById('res').innerText = `${imc}`
+  document.getElementById('res').innerText = `${String(imc)}`
 
   if (imc < 18.5 ) {
     document.getElementById('tipo').innerText = `Você Possui: Magreza`
@@ -46,3 +46,12 @@ function miguel() {
 
 miguel();
 */
+
+
+const input = document.getElementById('altura')
+const testando = () => {
+  if(input.value.length === 1)input.value = `${input.value},`
+}
+input.addEventListener('keydown',(e) => {
+  if(e.keyCode !== 8) testando()
+})

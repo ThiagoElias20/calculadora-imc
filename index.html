@@ -17,7 +17,10 @@
       </div>
       <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
       type = "number" maxlength = "10" placeholder="Digite seu peso aqui" id="peso">
-      <input type = "number" placeholder="Digite sua altura aqui" id="altura" onblur="imc()">
+      <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+      type = "text" maxlength = "4" placeholder="Digite sua altura aqui" id="altura">
+
+      <button onclick="imc()">TEST</button>
     
       <div id="tipo">Você Possui:</div>
     </div>
