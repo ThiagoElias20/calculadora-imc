@@ -46,7 +46,7 @@ function miguel() {
 
 miguel();
 */
-document.getElementById('post-result').style.display = "none"
+// document.getElementById('post-result').style.display = "none"
 
 function imc() {
   let peso = document.getElementById('peso')
