@@ -14,12 +14,17 @@
       <div class="pre-result" id="pre-result">
         <div id="texto">
           <h1>Calculadora de IMC</h1>
-          <p>Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal. Ele aponta se o peso está adequado ou se está abaixo ou acima do peso.</p>
         </div>
-        <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-        type = "number" maxlength = "3" placeholder="Digite seu peso aqui" id="peso">
-        <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-        type = "text" maxlength = "4" placeholder="Digite sua altura aqui" id="altura">
+        <div class="peso">
+          <p id="text">Peso:</p>
+          <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+          type = "number" maxlength = "3" placeholder="Digite seu peso aqui (Quilos)" id="peso">
+        </div>
+        <div class="altura">
+          <p id="text">Altura:</p>
+          <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+          type = "text" maxlength = "4" placeholder="Digite sua altura aqui (Metros)" id="altura">
+        </div>
         
         <button onclick="imc()">Calcular</button>
       </div>

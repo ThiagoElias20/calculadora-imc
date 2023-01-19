@@ -33,9 +33,23 @@ body {
   justify-content: space-evenly;
   text-shadow: 0 0 5px #000000;
   text-align: center;
-  height: 200px;
+  height: 20px;
   width: 396px;
-  margin-bottom: 25px;
+}
+
+.pre-result #text {
+  display: flex;
+  align-items: flex-start;
+  width: 396px;
+  font-size: large;
+}
+
+.pre-result .peso {
+  margin-top: 60px;
+}
+
+.pre-result .altura {
+  margin-top: 40px;
 }
 
 .imc #res {
@@ -50,18 +64,18 @@ body {
 }
 
 .imc button {
-  background-color: #FFFFFF;
-  border: 1px solid #222222;
+  background-color: #880f0f;
+  border: 1px solid #000000;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #222222;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   outline: none;
   padding: 13px 23px;
   position: relative;
@@ -71,7 +85,7 @@ body {
   transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
   user-select: none;
   -webkit-user-select: none;
-  width: auto;
+  width: 200px;
 }
 
 .imc button:focus-visible {
@@ -80,7 +94,7 @@ body {
 }
 
 .imc button:active {
-  background-color: #F7F7F7;
+  background-color: #520606;
   border-color: #000000;
   transform: scale(.96);
 }
