@@ -31,10 +31,12 @@
       <div class="post-result" id="post-result">
         <div class="resultado">
           <h1>Seu IMC:</h1>
-          <div id="res">XXX</div>
+          <div id="res"></div>
         </div>
-        <div id="tipo">Você Possui:</div>
-        <p>Confira os rankings</p>
+        <div class="ranks">
+          <div id="tipo">Você Possui:</div>
+          <p>Confira os rankings</p>
+        </div>
 
         
         <!-- <div class="rankings">
@@ -63,39 +65,45 @@
             <div id="segn">Obesidade grave</div>
           </div>
         </div> -->
-
-        <table width="400" border="1">
-          <tr>
-            <th>Valor do IMC</th>
-            <th>Classificação</th>
-            <th>Grau de Obesidade</th>
-          </tr>
-          <tr>
-            <td>Menor que 18,5</td>
-            <td>Magreza</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Entre 18,5 e 24,9</td>
-            <td>Normal</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Entre 25,0 e 29,9</td>
-            <td>Sobrepeso</td>
-            <td>I</td>
-          </tr>
-          <tr>
-            <td>Entre 30,0 e 39,9</td>
-            <td>Obesidade</td>
-            <td>II</td>
-          </tr>
-          <tr>
-            <td>Maior que 40,0</td>
-            <td>Obesidade Grave</td>
-            <td>III</td>
-          </tr>
-        </table>
+        <div class="testo">
+          <table width="400" border="0">
+            <thead>
+              <tr>
+                <th>Valor do IMC</th>
+                <th>Classificação</th>
+                <th>Grau de Obesidade</th>
+              </tr>
+            </thead>
+  
+            <tbody>
+              <tr>
+                <td>Menor que 18,5</td>
+                <td>Magreza</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>Entre 18,5 e 24,9</td>
+                <td>Normal</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>Entre 25,0 e 29,9</td>
+                <td>Sobrepeso</td>
+                <td>I</td>
+              </tr>
+              <tr>
+                <td>Entre 30,0 e 39,9</td>
+                <td>Obesidade</td>
+                <td>II</td>
+              </tr>
+              <tr>
+                <td>Maior que 40,0</td>
+                <td>Obesidade Grave</td>
+                <td>III</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
       </div>
     </div>
