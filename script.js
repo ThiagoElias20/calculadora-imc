@@ -107,3 +107,8 @@ altura.addEventListener('keydown',(e) => {
   } 
 })
 
+voltar() ;{
+  document.getElementById('post-result').style.display = "none"
+    document.getElementById('pre-result').style.display = "inline"
+}
+
