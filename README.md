@@ -15,3 +15,8 @@ O calculo do IMC é feito divindo o peso do paciente por sua altura ao quadrado.
 
 # Linguagens usadas
 
+<div style="display: inline_block"><br>
+  <img align="center" alt="T-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="T-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="T-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
