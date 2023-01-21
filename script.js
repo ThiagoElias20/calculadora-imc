@@ -44,6 +44,8 @@ function imc() {
   if (imc > 0 ) {
     document.getElementById('post-result').style.display = "inline"
     document.getElementById('pre-result').style.display = "none"
+  } else {
+    window.alert("Os valores não foram inseridos corretamente. Tente novamente.")
   }
   }
   
