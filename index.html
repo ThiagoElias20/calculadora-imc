@@ -25,8 +25,9 @@
           <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
           type = "text" maxlength = "4" placeholder="Digite sua altura aqui (Metros)" id="altura">
         </div>
-        
-        <button onclick="imc()">Calcular</button>
+        <div id="calcbut">
+          <button onclick="imc()">Calcular</button>
+        </div>
       </div>
       <div class="post-result" id="post-result">
         <div class="resultado">
@@ -38,34 +39,7 @@
           <p>Confira os rankings</p>
         </div>
 
-        
-        <!-- <div class="rankings">
-          <div class="categorias">
-            <div id="prim">Valor do IMC</div>
-            <div id="segn">Classificação</div>
-          </div>
-          <div class="categorias" id="lin1">
-            <div id="prim">Menor do que 18,5</div>
-            <div id="segn">Baixo Peso</div>
-          </div>
-          <div class="categorias" id="lin2">
-            <div id="prim">18,5 - 24,9</div>
-            <div id="segn">Peso Normal</div>
-          </div>
-          <div class="categorias" id="lin3">
-            <div id="prim">25,0 - 29,9</div>
-            <div id="segn">Sobrepeso</div>
-          </div>
-          <div class="categorias" id="lin4">
-            <div id="prim">30,0 - 34,9</div>
-            <div id="segn">Obesidade</div>
-          </div>
-          <div class="categorias" id="lin5">
-            <div id="prim">Maior que 40,0</div>
-            <div id="segn">Obesidade grave</div>
-          </div>
-        </div> -->
-        <div class="testo">
+        <div class="tabela">
           <table width="400" border="0">
             <thead>
               <tr>
