@@ -14,7 +14,7 @@ Abaixo está uma tabela mostrando as classificações a partir do resultado de s
 | MAIOR QUE 40,0  | OBESIDADE GRAVE  |
 
 # O Site
-https://media.giphy.com/media/9skXY4noBGF7dzFoV7/giphy.gif
+![](https://media.giphy.com/media/9skXY4noBGF7dzFoV7/giphy.gif)
 
 
 # Linguagens usadas
